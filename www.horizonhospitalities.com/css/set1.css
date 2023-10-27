@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+.grid2,
+.grid3 {
+    float: right;
+}
+.grid2,
+.grid3,
+.grid4,
+.grid6 {
+    margin-bottom: 30px;
+    width: 100%;
+}
+.grid1 figure figcaption,
+.grid1 figure h2,
+.grid1 figure p,
+.grid2 figure figcaption,
+.grid2 figure h2,
+.grid2 figure p,
+.grid3 figure figcaption,
+.grid3 figure h2,
+.grid4 figure figcaption,
+.grid4 figure h2,
+.grid4 figure p,
+.grid5 figure figcaption,
+.grid5 figure h2,
+.grid5 figure p,
+.grid6 figure figcaption,
+.grid6 figure h2,
+.grid6 figure p {
+    color: #fff;
+    text-transform: uppercase;
+}
+.grid1 {
+    margin-bottom: 30px;
+}
+.grid3 {
+    margin-bottom: 30px;
+}
+.grid5 {
+    margin-bottom: 30px;
+}
+.grid1 figure h2,
+.grid1 figure p,
+.grid2 figure h2,
+.grid2 figure p,
+.grid3 figure h2,
+.grid3 figure p,
+.grid4 figure h2,
+.grid4 figure p,
+.grid5 figure h2,
+.grid5 figure p,
+.grid6 figure h2,
+.grid6 figure p {
+    margin: 0;
+}
+.grid1 figure,
+.grid2 figure,
+.grid3 figure,
+.grid4 figure,
+.grid5 figure,
+.grid6 figure {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+.grid1 figure img,
+.grid2 figure img,
+.grid3 figure img,
+.grid4 figure img,
+.grid5 figure img,
+.grid6 figure img {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    opacity: 1;
+}
+.grid1 figure figcaption,
+.grid2 figure figcaption,
+.grid3 figure figcaption,
+.grid4 figure figcaption,
+.grid5 figure figcaption,
+.grid6 figure figcaption {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.grid1 figure figcaption::after,
+.grid1 figure figcaption::before,
+.grid2 figure figcaption::after,
+.grid2 figure figcaption::before,
+.grid3 figure figcaption::after,
+.grid3 figure figcaption::before,
+.grid4 figure figcaption::after,
+.grid4 figure figcaption::before,
+.grid5 figure figcaption::after,
+.grid5 figure figcaption::before,
+.grid6 figure figcaption::after,
+.grid6 figure figcaption::before {
+    pointer-events: none;
+}
+.grid1 figure figcaption,
+.grid1 figure figcaption > a,
+.grid2 figure figcaption,
+.grid2 figure figcaption > a,
+.grid3 figure figcaption,
+.grid3 figure figcaption > a,
+.grid4 figure figcaption,
+.grid4 figure figcaption > a,
+.grid5 figure figcaption,
+.grid5 figure figcaption > a,
+.grid6 figure figcaption,
+.grid6 figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.grid figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+.grid1 figure h2 {
+    font-size:30px;
+    font-weight: 500;
+    font-style: normal;
+   font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+	text-transform:capitalize;
+}
+.grid1 figure h2 span {
+    font-weight: 800;
+}
+.grid1 figure p {
+    letter-spacing: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size:14px!important;
+	text-transform:none;
+}
+.grid2 figure h2 {
+    font-size:30px;
+    font-weight: 500;
+    font-style: normal;
+   font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+	text-transform:capitalize;
+}
+.grid2 figure h2 span {
+    font-weight: 800;
+}
+.grid2 figure p {
+    letter-spacing: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size:14px!important;
+	text-transform:none;
+}
+.grid3 figure h2 {
+    font-size:30px;
+    font-weight: 500;
+    font-style: normal;
+   font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+	text-transform:capitalize;
+}
+.grid3 figure h2 span {
+    font-weight: 800;
+}
+.grid3 figure p {
+    letter-spacing: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size:14px!important;
+	text-transform:none;
+}
+.grid4 figure h2 {
+    font-size:30px;
+    font-weight: 500;
+    font-style: normal;
+   font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+	text-transform:capitalize;
+}
+.grid4 figure h2 span {
+    font-weight: 800;
+}
+.grid4 figure p {
+    letter-spacing: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size:14px!important;
+	text-transform:none;
+}
+.grid5 figure h2 {
+    font-size:30px;
+    font-weight: 500;
+    font-style: normal;
+   font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+	text-transform:capitalize;
+}
+.grid5 figure h2 span {
+    font-weight: 800;
+}
+.grid5 figure p {
+    letter-spacing: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size:14px!important;
+	text-transform:none;
+}
+.grid6 figure h2 {
+    font-size:30px;
+    font-weight: 500;
+    font-style: normal;
+   font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+	text-transform:capitalize;
+}
+.grid6 figure h2 span {
+    font-weight: 800;
+}
+.grid6 figure p {
+    letter-spacing: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size:14px!important;
+	text-transform:none;
+}
+figure.effect-bubba:hover img {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+figure.effect-bubba {
+    background: #000;
+}
+figure.effect-bubba figcaption::after,
+figure.effect-bubba figcaption::before {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    content: "";
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+figure.effect-bubba figcaption::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+figure.effect-bubba figcaption::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+}
+figure.effect-bubba h2 {
+font-family: 'Roboto', sans-serif;
+font-size:20px!important;
+text-transform: uppercase;
+padding-top: 170px;
+padding-bottom:5px;
+-webkit-transition: -webkit-transform 0.35s;
+transition: transform 0.35s;
+-webkit-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+font-weight:700;
+padding:5vw 1vw 0 1vw;;
+}
+figure.effect-bubba1 h2 {
+    padding-top: 302px;
+}
+figure.effect-bubba2 h2 {
+    padding-top: 268px;
+}
+.effect-bubba-new p,
+figure.effect-bubba2 p {
+    padding-top: 0 !important;
+}
+figure.effect-bubba3 h2 {
+    padding-top: 168px;
+}
+figure.effect-bubba3 p {
+    padding-top: 0 !important;
+}
+figure.effect-bubba4 h2 {
+    padding-top: 121px;
+}
+figure.effect-bubba4 p {
+    padding-top: 0 !important;
+}
+figure.effect-bubba p {
+    padding-top: 0;
+    opacity: 1;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+	padding:5px 40px;
+	line-height:1.2;
+}
+figure.effect-bubba:hover figcaption::after,
+figure.effect-bubba:hover figcaption::before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.effect-bubba-new h2 {
+    padding-top: 133px !important;
+}
+.effect-bubba-new img {
+    width: 100%;
+}
+@media screen and (max-width: 1280px) {
+figure.effect-bubba h2 {
+padding-top: 30px;
+  font-size: 16px !important;
+}
+.grid1 figure p {
+  font-size: 12px !important;
+ }
+ }
+@media screen and (max-width: 50em) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .grid1 figure,
+    .grid2 figure,
+    .grid3 figure,
+    .grid4 figure,
+    .grid5 figure,
+    .grid6 figure {
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+.grid1 figure p {
+font-size: 20px;
+}
+figure.effect-bubba h2 {
+    padding-top:50px;
+    padding-bottom: 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.effect-bubba-new h2 {
+padding-top:50px !important;
+}
+.grid2 figure p {
+font-size: 16px;
+}
+.grid3 figure p {
+font-size: 16px;
+}
+.grid6 figure p {
+font-size: 16px;
+}
+.grid4 figure p {
+font-size: 16px;
+}
+.grid5 figure p {
+font-size:16px;
+}
+}
+@media (min-width:768px) and (max-width:800px) {
+figure.effect-bubba p {
+padding: 5px 10px;
+line-height:1;
+}
+.grid1 figure p {
+font-size: 12px !important;
+}
+figure.effect-bubba figcaption::after, figure.effect-bubba figcaption::before {
+top:10px;
+right:10px;
+bottom:10px;
+left: 10px;
+}
+figure.effect-bubba h2 {
+font-size:16px !important;
+}
+}
+@media only screen and (min-width : 801px) and (max-width : 1023px) {
+figure.effect-bubba h2 {
+    padding-top:50px;
+    padding-bottom: 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.grid1 figure p {
+font-size: 18px;
+}
+.grid2 figure p {
+font-size: 18px;
+}
+.grid3 figure p {
+font-size: 18px;
+}
+.grid6 figure p {
+font-size: 18px;
+}
+.grid4 figure p {
+font-size: 18px;
+}
+.grid5 figure p {
+font-size:18px;
+}
+}
